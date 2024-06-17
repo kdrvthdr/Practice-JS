@@ -20,7 +20,7 @@ body {
 }
 
 #question-count {
-    font-size: 18px;
+    font-size: 28px;
     text-align: center;
     color: #333333;
     font-weight: 600;
@@ -33,7 +33,7 @@ body {
 }
 
 .quiz h2 {
-    font-size: 18px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     font-weight: 600;
