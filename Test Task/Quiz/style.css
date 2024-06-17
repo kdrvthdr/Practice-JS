@@ -19,7 +19,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.quetion-count {
+#question-count {
     font-size: 18px;
     text-align: center;
     color: #333333;
@@ -41,7 +41,7 @@ body {
     margin-bottom: 20px;
 }
 
-.answer-wrapper {
+#answer-buttons{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,6 +80,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s;
+    display: none;
 }
 
 #next-button:disabled {
