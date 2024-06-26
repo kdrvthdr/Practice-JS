@@ -5,25 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
   <link rel = "stylesheet" href="style.css">
-
  </head>
-
  <body>
+    <button id="theme-toggle">Dark Theme</button>
     <div class="quiz-wrapper">
         <div id="question-count">
             <h1>Question ...</h1>
         </div>
         <div class="quiz">
             <h2 id="question">Question goes here</h2> 
-            <div id="answer-info"></div>
+            <p id="answer-info"></p>
+            <h2 id="timer">00:00</h2>
             <div  id="answer-buttons"></div>
             <button id="check-button" >Check Answers</button>
             <button id="next-button" >Next Question</button>
-        
         </div>
-       
     </div>
-
-    <script src = "script.js"></script>
+    <script src="constants.js"></script>
+    <script src = "quiz.js"></script>
+    <script src = "theme.js"></script>
  </body>
 </html>
