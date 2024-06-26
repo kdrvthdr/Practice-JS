@@ -1,2 +1,2 @@
 Quiz:
-https://effulgent-banoffee-72ccfa.netlify.app/
+https://chipper-eclair-1f2125.netlify.app/
