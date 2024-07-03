@@ -1,2 +1,2 @@
 Quiz:
-https://chipper-eclair-1f2125.netlify.app/
+https://peaceful-melomakarona-f7d147.netlify.app/
