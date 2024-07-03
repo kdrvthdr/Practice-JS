@@ -34,6 +34,12 @@
 
     --transition-duration: 0.3s;
 
+    --toggle-width: 3rem;
+    --toggle-height: 1.5rem;
+    --circle-size: 1.2rem;
+    --circle-margin: 0.15rem;
+    --circle-offset-right: 1.35rem;
+
     color-scheme: light;
 }
 
@@ -168,17 +174,26 @@ body {
     position: absolute;
     top: var(--padding-small);
     right: var(--padding-small);
-    padding: var(--padding-small);
-    border: none;
-    border-radius: var(--min-border-radius);
-    background-color: var(--btn-bg-color);
-    color: var(--btn-text-color);
+    width: var(--toggle-width); 
+    height: var(--toggle-height);
+    border-radius: var(--max-border-radius);
+    background-color: var(--quiz-bg-color);
     cursor: pointer;
-    transition: all var(--transition-duration);
 }
 
-#theme-toggle:hover {
-    background-color: var(--btn-hover-color);
+.circle{
+    position: absolute;
+    width: var(--circle-size); 
+    height: var(--circle-size); 
+    left: var(--circle-margin);
+    background-color: var(--main-bg-color);
+    border-radius: var(--max-border-radius);
+    transition: all var(--transition-duration);
+    margin: var(--circle-margin);
+}
+
+.circle.right {
+    left: var(--circle-offset-right); 
 }
 
 
