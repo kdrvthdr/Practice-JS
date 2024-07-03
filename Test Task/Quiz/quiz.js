@@ -69,6 +69,7 @@ function selectAnswer(button, answer) {
 
     answerButtons.querySelectorAll(".btn").forEach(btn => {
         btn.classList.remove("selected", "correct", "incorrect");
+        btn.disabled = true;
     });
 
     if (isCorrect) {
